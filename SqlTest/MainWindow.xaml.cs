@@ -33,8 +33,8 @@ namespace SqlTest
 
             db.commande.Dispose();
             var username = "salah ";
-            var password = "psd";
-            string cmd = "INSERT INTO users (username , password ) VALUES ('" + username + "','"  + password + "');";
+            var psw = "salahPassword";
+            string cmd = "INSERT INTO users (username , password ) VALUES ('" + username + "','"  + psw + "');";
 
             db.commande.CommandText = cmd;
 
